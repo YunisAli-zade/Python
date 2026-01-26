@@ -10,6 +10,3 @@ def solution(flowerbed: list[int], n: int) -> bool:
     return True if n == 0 else False
     pass
 # print(solution([1,0,0,0,1], 1))
-a = [-1,1,-6,4,5,-6,1,4,1]
-a.sort(key = lambda x: a.count(x), reverse=True)
-print(a)
